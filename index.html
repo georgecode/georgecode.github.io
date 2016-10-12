@@ -51,7 +51,7 @@
       <a href="https://www.yelp.com/biz/taqueria-canc%C3%BAn-san-francisco-5"><h3>Taqueria Cancun</h3></a>
       <img src="images/burrito.jpg" alt="burrito" height="150" width="200">
 
-      <p>There’s so many great Mexican places in SF, Taqueria Cancun  makes my best food in SF list because of their great green sauce, short line, huge serving, and great prices</p>
+      <p>There&#39;s so many great Mexican places in SF, Taqueria Cancun  makes my best food in SF list because of their great green sauce, short line, huge serving, and great prices</p>
       <h3>Things to try</h3>
 
       <ul>
@@ -85,7 +85,7 @@
       <h2>Asian Fusion</h2>
       <a href="https://www.yelp.com/biz/the-spice-jar-san-francisco"><h3>The Spice Jar</h3></a>
       <img src="images/spiceJar.jpg" alt="Spice_jar" height="150" width="200">
-      <p>There’s also so many great Asian places in SF, The Spice Jar makes my list because of their delicious lettuce cups.  I also like how they have silverware on the tables, so I don’t have to be embarrassed about not being able to use chopsticks.</p>
+      <p>There&#39;s also so many great Asian places in SF, The Spice Jar makes my list because of their delicious lettuce cups.  I also like how they have silverware on the tables, so I don&#39;t have to be embarrassed about not being able to use chopsticks.</p>
       <h3>Things to try</h3>
 
       <ul>
@@ -114,6 +114,20 @@
       </table>
     </article>
 
+    <!-- Comment box -->
+    <!-- I know in-line style is terrible but needed a comment box and figured I'd be styling this site next week in the css lessons so didn't want to add a style sheet -->
+    <div class="commentBox" style="border:2px solid black;padding:15px;width:330px;margin-top: 20px">
+      <h4>Was this site helpful?</h4>
+      <form id="helpfulFeedback" action="https://httpbin.org/post" target="_blank" method="post">
+        <input type="radio" name="option" value="yes">Yes<br>
+        <input type="radio" name="option" value="no">NO<br>
+        <input type="radio" name="option" value="a little">A little<br>
+      </form>
+      Comment:<br>
+
+      <textarea form="helpfulFeedback" name="comment" style="height:200px;width:300px"></textarea><br>
+      <button type="submit" form="helpfulFeedback">Submit</button><br>
+    </div>
   </main>
 </body>
 </html>
