@@ -1,3 +1,89 @@
 body{
+  background: url(images/sfNight4.jpg) center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+header p{
+ padding: 20px;
+ font-size: 1em;
+}
+
+img{
+  height:150px;
+  width:200px;
+}
+
+article{
+  padding:5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+}
+
+section{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#pizza a:visited{
   color:red;
+}
+
+.cancun a:visited{
+  color:green;
+}
+
+.spiceJar a:visited{
+  color:orange;
+}
+
+table, th, td{
+  border: solid 1px black;
+  padding: 5px;
+}
+
+.commentBox{
+  border:2px solid black;
+  padding:15px;
+  width:330px;
+  margin-top: 20px;
+}
+
+textarea{
+  height:200px;
+  width:300px;
+}
+
+@media screen and (min-width: 500px) {
+  img{
+    height:200px;
+    width:267px;
+  }
+
+  body{
+    font-size: 1em;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+  header p{
+    font-size: 1.5em;
+  }
 }
